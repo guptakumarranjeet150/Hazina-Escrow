@@ -12,7 +12,7 @@
     "dist"
   ],
   "scripts": {
-    "build": "node init && tsc",
+    "build": "tsc",
     "typecheck": "tsc --noEmit",
     "lint": "ESLINT_USE_FLAT_CONFIG=false eslint src",
     "lint:fix": "ESLINT_USE_FLAT_CONFIG=false eslint src --fix",
